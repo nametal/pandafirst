@@ -1,0 +1,12 @@
+﻿{
+  "manifest_version": 2,
+    "version": "1.0",
+  "name": "Panda first",
+  "description": "Replace first image with Panda.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*","<all_urls>"],
+      "js": ["core.js"]
+    }
+  ]
+  }
